@@ -4,6 +4,8 @@ I used the chrome to build it so it won't work in other browser
  
 Requisitions:
  
+install the python extension on vscode
+
 open the cmd or the terminal and type pip if you are on windows and pip3 if you are on mac or linux
 then type pip install selenium
  
