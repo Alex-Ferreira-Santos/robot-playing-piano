@@ -16,10 +16,6 @@ class music:
         self.fullScreen = self.driver.find_element_by_id("fullScreenButton")
         self.action = ActionChains(self.driver)
 
-    def start(self):
-        self.PATH = "C:\Program Files (x86)\chromedriver.exe"
-        self.driver = webdriver.Chrome(self.PATH)
-
     def buttons(self):
         """
         :return: effects on display
@@ -196,7 +192,7 @@ class music:
             else:
                 self.action.move_to_element_with_offset(self.keyboard, 25.5 * (2 + 7 * n), 120).click()
 
-    def part1(self):
+    '''def part1(self):
         self.breaktime(0.0001)
         self.E(5)
         self.breaktime(0.01)
@@ -406,5 +402,5 @@ class music:
         self.part5()
         self.part4()
         self.part1()
-        self.part5()
+        self.part5()'''
     pass
