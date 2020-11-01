@@ -1,4 +1,5 @@
 from music import *
+from mario import *
 
 '''
     ========================================= WELCOME ===========================================
@@ -12,14 +13,14 @@ from music import *
  '''
 
 """special effects"""
-song = music()
+song = music
 song.buttons()
+mario = mario()
 
 
 '''========================================== MUSIC AREA =============================================
 type your song here'''
-song.mariosSong()
-
+mario.mariosSong()
 
 '''execute the song'''
 song.run()
@@ -28,4 +29,3 @@ print('done')
 '''quit the program'''
 time.sleep(3)
 song.quit()
-

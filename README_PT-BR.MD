@@ -8,16 +8,10 @@ Eu usei o chrome para construi-lo então não vai funcionar em outro browser.
 
 * instale a extensão do python no vscode
 
-* abra o cmd ou o terminal e digite pip se estiver no windows e pip3 se estiver no mac ou linux, depois digite ````pip install selenium```
- 
-install the python extension on vscode
+* abra o cmd ou o terminal e digite pip se estiver no windows e pip3 se estiver no mac ou linux, depois digite ```pip install selenium```
 
-open the cmd or the terminal and type pip if you are on windows and pip3 if you are on mac or linux
-then type pip install selenium
- 
-you need to install chromeDriver on the current version of your google
-follow the link below to install it:
-https://sites.google.com/a/chromium.org/chromedriver/downloads
+* você precisa instalar o chromeDriver na versão atual do seu google chrome, siga este [link]{https://sites.google.com/a/chromium.org/chromedriver/downloads} para instala-lo.
 
-after install chromeDriver you need to put the file on the C:\Program Files (x86)
+* depois de instalar o chromeDriver coloque-o na pasta C:\Program Files (x86)
+
 
